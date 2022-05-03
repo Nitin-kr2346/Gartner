@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gartner", "Gartner\Gartner.csproj", "{4D0F23CC-18FE-48FD-88BE-32609610C058}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gartner", "Gartner\Gartner.csproj", "{4D0F23CC-18FE-48FD-88BE-32609610C058}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gartner.Service", "Gartner.Service\Gartner.Service.csproj", "{E9FC3383-EBF7-4A22-81B8-8BEB06BD3E57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gartner.Service", "Gartner.Service\Gartner.Service.csproj", "{E9FC3383-EBF7-4A22-81B8-8BEB06BD3E57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gartner.UnitTest", "Gartner.UnitTest\Gartner.UnitTest.csproj", "{A05432FC-AB04-41A0-8954-4A1B3C321F3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gartner.UnitTest", "Gartner.UnitTest\Gartner.UnitTest.csproj", "{A05432FC-AB04-41A0-8954-4A1B3C321F3D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F7E16857-1DF2-4C86-966A-CBB1CD08D612}"
 	ProjectSection(SolutionItems) = preProject
+		..\..\Downloads\Take home assignment- .Net SSE\software engineer\database\dump.sql = ..\..\Downloads\Take home assignment- .Net SSE\software engineer\database\dump.sql
 		README.md = README.md
+		SQLQUERIESREADME.md = SQLQUERIESREADME.md
 	EndProjectSection
 EndProject
 Global
