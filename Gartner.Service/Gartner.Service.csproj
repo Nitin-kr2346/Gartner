@@ -5,23 +5,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="bin\Debug\netcoreapp3.1\Gartner.Service.deps.json" />
+    <Compile Remove="bin\**" />
+    <EmbeddedResource Remove="bin\**" />
+    <None Remove="bin\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="bin\Debug\netcoreapp3.1\feed-products\capterra.yaml" />
-    <None Include="bin\Debug\netcoreapp3.1\feed-products\softwareadvice.json" />
-    <None Include="bin\Debug\netcoreapp3.1\Gartner.Service.dll" />
-    <None Include="bin\Debug\netcoreapp3.1\Gartner.Service.pdb" />
+    <Content Include="feed-products\capterra.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="feed-products\softwareadvice.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="YamlDotNet" Version="11.2.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="bin\Release\netcoreapp3.1\" />
   </ItemGroup>
 
 </Project>
